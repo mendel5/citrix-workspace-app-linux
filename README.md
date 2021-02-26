@@ -25,3 +25,5 @@ sudo -H /opt/Citrix/ICAClient/util/ctx_rehash
 Source: [https://return42.github.io/handsOn/citrix/index.html](https://return42.github.io/handsOn/citrix/index.html) (German)
 
 5. Try logging in again. It should work now.
+
+6. For security reasons you might want to check the other configuration recommendations at [https://return42.github.io/handsOn/citrix/index.html#konfiguration](https://return42.github.io/handsOn/citrix/index.html#konfiguration).
