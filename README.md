@@ -22,6 +22,7 @@ the issuer of the server's security certificate (SSL error 61).
 5. To fix this issue, execute the following commands in your Linux terminal:
 ```
 sudo -H ln -s /usr/share/ca-certificates/mozilla/* /opt/Citrix/ICAClient/keystore/cacerts/
+
 sudo -H /opt/Citrix/ICAClient/util/ctx_rehash
 ```
 Source: [https://return42.github.io/handsOn/citrix/index.html](https://return42.github.io/handsOn/citrix/index.html) (German)
