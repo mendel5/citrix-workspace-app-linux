@@ -7,7 +7,9 @@ How to install the Citrix Workspace App (formerly Citrix Receiver) on Linux. The
 
 2. Install the downloaded file
 
-3. You might get the following error:
+3. During the installation process you might get asked: "Do you want to install the app protection component?" where you have to choose between Yes and No. You can decide if you want to install the app protection or not based on this information: [https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/secure/app-protection.html](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/secure/app-protection.html)
+
+4. When trying to log in, you might get the following error:
 ```
 Citrix Workspace
 
@@ -17,13 +19,13 @@ You have not chosen to trust "USERTrust RSA Certification Authority",
 the issuer of the server's security certificate (SSL error 61).
 ```
 
-4. To fix this issue, execute the following commands in your Linux terminal:
+5. To fix this issue, execute the following commands in your Linux terminal:
 ```
 sudo -H ln -s /usr/share/ca-certificates/mozilla/* /opt/Citrix/ICAClient/keystore/cacerts/
 sudo -H /opt/Citrix/ICAClient/util/ctx_rehash
 ```
 Source: [https://return42.github.io/handsOn/citrix/index.html](https://return42.github.io/handsOn/citrix/index.html) (German)
 
-5. Try logging in again. It should work now.
+6. Try logging in again. It should work now.
 
-6. For security reasons you might want to check the other configuration recommendations at [https://return42.github.io/handsOn/citrix/index.html#konfiguration](https://return42.github.io/handsOn/citrix/index.html#konfiguration).
+7. For security reasons you might want to check the other configuration recommendations at [https://return42.github.io/handsOn/citrix/index.html#konfiguration](https://return42.github.io/handsOn/citrix/index.html#konfiguration).
