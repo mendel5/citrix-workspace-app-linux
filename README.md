@@ -29,7 +29,17 @@ Source: [https://return42.github.io/handsOn/citrix/index.html](https://return42.
 
 6. Try logging in again. It should work now.
 
-7. For security reasons you might want to check the other configuration recommendations at [https://return42.github.io/handsOn/citrix/index.html#konfiguration](https://return42.github.io/handsOn/citrix/index.html#konfiguration).
+7. For security reasons you might want to adjust the further configuration recommendations in the config files:
+```
+[WFClient]
+...
+CREnabled=False
+CDMAllowed=Off
+ClientPrinterQueue=Off
+ClientManagement=Off
+ClientComm=Off
+```
+Source: [https://return42.github.io/handsOn/citrix/index.html#konfiguration](https://return42.github.io/handsOn/citrix/index.html#konfiguration)
 
 8. You might be unsure whether to use the "`Disconnect`" button or the "`Sign Out`" button in Citrix. 
 - Disconnecting by hitting “X” in the top right of the screen or selecting “Disconnect” from the connection bar will leave your session as is on the server with applications remaining open. This disconnected state does not save your documents so be sure to save any work before disconnecting. When you reconnect to your disconnected session it should login right as you left it with the running applications. Note that your organization may enforce a stricter logoff policy so your session may be logged out before you are able to return to it.
