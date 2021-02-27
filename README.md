@@ -30,3 +30,9 @@ Source: [https://return42.github.io/handsOn/citrix/index.html](https://return42.
 6. Try logging in again. It should work now.
 
 7. For security reasons you might want to check the other configuration recommendations at [https://return42.github.io/handsOn/citrix/index.html#konfiguration](https://return42.github.io/handsOn/citrix/index.html#konfiguration).
+
+8. You might be unsure whether to use the "`Disconnect`" button or the "`Sign Out`" button in Citrix. 
+- Disconnecting by hitting “X” in the top right of the screen or selecting “Disconnect” from the connection bar will leave your session as is on the server with applications remaining open. This disconnected state does not save your documents so be sure to save any work before disconnecting. When you reconnect to your disconnected session it should login right as you left it with the running applications. Note that your organization may enforce a stricter logoff policy so your session may be logged out before you are able to return to it.
+- Logging off/Signing out means fully logging off of Citrix and signing out of your profile. This closes all open applications and closes your session requiring a fresh login next time you connect. Note that your organization may have an enforced daily logoff policy.
+
+Source: [https://support.virsage.com/kb/article/8--logging-off-versus-disconnecting-from-the-citrix-desktop/](https://support.virsage.com/kb/article/8--logging-off-versus-disconnecting-from-the-citrix-desktop/)
