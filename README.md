@@ -29,7 +29,15 @@ Source: [https://return42.github.io/handsOn/citrix/index.html](https://return42.
 
 6. Try logging in again. It should work now.
 
-7. For security reasons you might want to adjust the further configuration recommendations in the config files:
+7. For security reasons you might want to adjust the further configuration recommendations in the config files.
+
+Location:
+```
+/opt/Citrix/ICAClient/config/wfclient.template
+/opt/Citrix/ICAClient/nls/<lang>/wfclient.template
+```
+
+Change to:
 ```
 [WFClient]
 ...
