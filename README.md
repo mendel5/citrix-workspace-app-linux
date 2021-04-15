@@ -7,7 +7,7 @@ How to install the Citrix Workspace App (formerly Citrix Receiver) on Linux. The
 
 2. Install the downloaded file
 
-3. During the installation process you might get asked: "`Do you want to install the app protection component?`" where you have to choose between Yes and No. You can decide whether to install the app protection or not based on this information: [https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/secure/app-protection.html](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/secure/app-protection.html) Selecting `No` should be fine.
+3. During the installation process you might get asked: "`Do you want to install the app protection component?`" where you have to choose between `Yes` and `No`. You can decide whether to install the app protection or not based on this information: [https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/secure/app-protection.html](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/secure/app-protection.html) Selecting `No` should be fine.
 
 4. When trying to log in, you might get the following error:
 ```
