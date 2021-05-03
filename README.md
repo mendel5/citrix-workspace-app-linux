@@ -3,7 +3,7 @@ How to install the Citrix Workspace App (formerly Citrix Receiver) on Linux. The
 
 1. Download the latest version of the Citrix Workspace App from the Citrix website:
 - [https://www.citrix.com/downloads/workspace-app/linux/](https://www.citrix.com/downloads/workspace-app/linux/)
-- If you need an older version, you can still download the Citrix Receiver app: [https://www.citrix.com/downloads/citrix-receiver/linux/](https://www.citrix.com/downloads/citrix-receiver/linux/)
+- If you need an older version, you can still download the Citrix Receiver app (deprecated since August 2018): [https://www.citrix.com/downloads/citrix-receiver/linux/](https://www.citrix.com/downloads/citrix-receiver/linux/)
 
 2. Install the downloaded file
 
