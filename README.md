@@ -1,5 +1,5 @@
 # citrix-workspace-app-linux
-How to install the Citrix Workspace App (formerly Citrix Receiver) on Linux. The downloaded file is also known as `icaclient`.
+How to install the Citrix Workspace App (formerly Citrix Receiver) on Linux. The downloaded file is also known as `icaclient`. As far as I know, `ica` stands for Citrix' `Independent Computing Architecture`, see [Wikipedia](https://en.wikipedia.org/wiki/Independent_Computing_Architecture).
 
 1. Download the latest version of the Citrix Workspace App from the Citrix website:
 - [https://www.citrix.com/downloads/workspace-app/linux/](https://www.citrix.com/downloads/workspace-app/linux/)
