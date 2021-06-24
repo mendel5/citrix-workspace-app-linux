@@ -29,7 +29,7 @@ Source: [https://return42.github.io/handsOn/citrix/index.html](https://return42.
 
 6. Try logging in again. It should work now.
 
-7. For security reasons you might want to adjust the further configuration recommendations in the config files.
+7. For security reasons you might want to adjust some parameters in the config files.
 
 Location:
 ```
